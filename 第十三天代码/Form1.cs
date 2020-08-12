@@ -33,6 +33,7 @@ namespace 第十三天代码
         {
             //擦除之前新打开的窗体
             CloseForm();
+            //
             objForm.TopLevel = false;//关闭顶级窗体
             objForm.FormBorderStyle = FormBorderStyle.None;//去除图像边框
             objForm.Parent = this.panel1;//指定容器
@@ -43,6 +44,7 @@ namespace 第十三天代码
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 fr2 = new Form2();
+            //fr2.Show();
             //
             OpenForm(fr2);
         }
@@ -50,8 +52,16 @@ namespace 第十三天代码
         private void button2_Click(object sender, EventArgs e)
         {
             Form3 fr3 = new Form3();
+            //fr3.Show();
             //
             OpenForm(fr3);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form4 fr4 = new Form4();
+            //fr4.Show();
+            OpenForm(fr4);
         }
     }
 }

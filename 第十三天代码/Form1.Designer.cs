@@ -36,6 +36,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(152, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(886, 562);
@@ -69,6 +70,7 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "打开窗体三";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
